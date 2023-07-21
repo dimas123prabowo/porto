@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0a0a0a;
+}
+
+.section__container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 5rem 1rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.section__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+  padding: 16px 98px;
+}
+
+.section__title {
+  font-size: 40px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+.section__subtitle {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+nav {
+  padding: 32px 88px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: var(--max-width);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0a0a0a;
+}
+
+.nav_mail {
+  display: flex;
+  font-size: 20px;
+  gap: 24px;
+  align-items: center;
+  color: #ffffff;
+}
+
+.nav_mail img {
+  width: 32px;
+  height: 32px;
+}
+
+.nav_logo {
+  font-family: inter;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary-main);
+  cursor: pointer;
+}
+
+.nav_logo img {
+  width: 180px;
+  height: 30px;
+}
+
+.nav_icon {
+  gap: 24px;
+  display: flex;
+}
+
+.nav_icon img {
+  width: 32px;
+  height: 32px;
+}
+
+.profile {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile img {
+  margin-top: 53px;
+  width: 180px;
+  height: 180px;
+}
+
+.title_profile {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.role {
+  text-align: center;
+  font-size: 18px;
+  color: #757575;
+}
+
+.name_body {
+  font-size: 28px;
+  color: #ffffff;
+}
+.icon_hand img {
+  height: 44px;
+  width: 44px;
+}
+
+.passion {
+  gap: 32px;
+  justify-content: center;
+}
+
+.passion_head {
+  font-size: 60px;
+  color: #ffffff;
+  text-align: center;
+  max-width: 1031px;
+  margin-bottom: 20px;
+}
+
+.passion_body p {
+  max-width: 798px;
+  max-height: 66px;
+  font-size: 18px;
+  color: #757575;
+  text-align: center;
+  margin: auto;
+}
