@@ -293,7 +293,7 @@ nav {
 
 .wrap_card {
   display: flex;
-  gap: 32px;
+  gap: 60px;
   margin-bottom: 32px;
 }
 
@@ -306,6 +306,51 @@ nav {
   color: white;
   background-color: #171616;
   text-align: left;
+  border-radius: 10px;
+}
+
+.card_sertif {
+  width: 517px;
+  height: 588px;
+  padding: 36px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #171616;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.sertifikat {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 46px;
+}
+
+.wrap_card_lomba {
+  align-items: center;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  margin-bottom: 92px;
+}
+
+.card_sertif img {
+  width: 445px;
+  height: 261px;
+  margin-bottom: 24px;
+}
+
+.nama_lomba {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 24px;
+}
+
+.desk_lomba {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 24px;
 }
 
 .nama_pt {
@@ -344,7 +389,7 @@ nav {
   margin-top: 32px;
   color: white;
   font-size: 24px;
-  margin-bottom: 46px;
+  margin-bottom: 136px;
 }
 
 .footer {
@@ -399,15 +444,37 @@ nav {
   height: 22px;
 }
 
-.watermark {
-  width: 1444px;
-  height: 102px;
-  border-color: #ffffff;
-  margin-top: 48px;
+.work {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 46px;
 }
 
-.wmtext {
-  color: var(--primary-main);
-  text-align: center;
-  margin: auto;
+.wrap_work {
+  display: flex;
+  gap: 60px;
+}
+
+.card_work {
+  padding: 36px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #171616;
+  text-align: left;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.card_work img {
+  height: 371px;
+  align-self: stretch;
+  margin-bottom: 24px;
+  border-radius: 10px;
+}
+
+.nama_work {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 24px;
 }
