@@ -292,11 +292,9 @@ nav {
 }
 
 .card {
-  display: flex;
   width: 581px;
   height: 318px;
   padding: 36px 32px;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #002bff;
