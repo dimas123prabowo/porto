@@ -478,3 +478,13 @@ nav {
   color: white;
   margin-bottom: 24px;
 }
+
+/* Untuk Mobile Phone */
+@media screen and (min-width: 476px){ 
+  
+}
+
+/* Untuk Tablet */
+@media screen and (min-width: 476px){ 
+  
+}
