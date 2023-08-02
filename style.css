@@ -50,6 +50,10 @@ body {
   background-color: #0a0a0a;
 }
 
+.bgatas {
+  background-size: auto;
+}
+
 .section__container {
   max-width: var(--max-width);
   margin: auto;
@@ -480,11 +484,9 @@ nav {
 }
 
 /* Untuk Mobile Phone */
-@media screen and (min-width: 476px){ 
-  
+@media screen and (min-width: 476px) {
 }
 
 /* Untuk Tablet */
-@media screen and (min-width: 476px){ 
-  
+@media screen and (min-width: 476px) {
 }
