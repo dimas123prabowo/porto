@@ -663,6 +663,7 @@ nav {
     gap: 12px;
     justify-content: center;
     align-items: center;
+    margin-top: 24px;
     margin-bottom: 8px;
     text-align: center;
   }
@@ -683,23 +684,24 @@ nav {
   }
 
   .passion {
-    gap: 32px;
+    gap: 12px;
     justify-content: center;
   }
 
   .passion_head {
-    font-size: 24px;
+    font-size: 20px;
     font-family: “Helvetica”, sans-serif;
     color: #ffffff;
     text-align: center;
     max-width: 900px;
-    margin-bottom: 40px;
+    margin-top: 12px;
+    margin-bottom: 24px;
   }
 
   .passion_body p {
     max-width: 798px;
     max-height: 66px;
-    font-size: 18px;
+    font-size: 12px;
     color: #757575;
     text-align: center;
     margin: auto;
@@ -803,20 +805,20 @@ nav {
 
   .experience {
     color: black;
-    font-size: 32px;
+    font-size: 24px;
     margin-top: 46px;
     margin-bottom: 46px;
   }
 
   .wrap_card {
-    display: flex;
-    gap: 60px;
+    display: grid;
+    gap: 30px;
     margin-bottom: 32px;
   }
 
   .card {
-    width: 581px;
-    height: 318px;
+    width: 335px;
+    height: 252px;
     padding: 36px;
     justify-content: center;
     align-items: center;
@@ -838,21 +840,21 @@ nav {
 
   .sertifikat {
     color: white;
-    font-size: 32px;
-    margin-top: 75px;
+    font-size: 16px;
+    margin-top: 64px;
     margin-bottom: 46px;
   }
 
   .wrap_card_lomba {
     align-items: center;
-    display: flex;
+    display: grid;
     gap: 60px;
     justify-content: center;
     margin-bottom: 92px;
   }
 
   .card_sertif img {
-    width: 550px;
+    width: 261px;
     margin-bottom: 24px;
   }
 
@@ -863,52 +865,54 @@ nav {
   }
 
   .desk_lomba {
-    font-size: 16px;
+    font-size: 12px;
     color: white;
     margin-bottom: 24px;
   }
 
   .nama_pt {
-    font-size: 32px;
+    font-size: 20px;
     margin-bottom: 32px;
   }
 
   .role_card {
-    font-size: 24px;
+    font-size: 16px;
     margin-bottom: 20px;
   }
 
   .date {
-    font-size: 24px;
+    font-size: 16px;
     margin-bottom: 20px;
   }
 
   .skill {
-    font-size: 24px;
+    font-size: 16px;
     gap: 12px;
     display: flex;
   }
 
   .skill_name {
-    font-size: 24px;
+    font-size: 16px;
   }
 
   .skills_and_tools {
-    margin-top: 132px;
+    margin-top: 78px;
     color: black;
-    font-size: 32px;
-    margin-bottom: 46px;
+    font-size: 24px;
+    margin-bottom: 24px;
   }
 
   .skills_and_toolsname {
-    margin-top: 32px;
+    margin-top: 12px;
     color: black;
-    font-size: 24px;
+    font-size: 16px;
     margin-bottom: 136px;
   }
 
   .footer {
-    display: flex;
+    align-items: center;
+    align-self: center;
+    display: grid;
     color: white;
     gap: 60px;
     margin-top: 98px;
@@ -978,13 +982,13 @@ nav {
 
   .work {
     color: white;
-    font-size: 32px;
+    font-size: 24px;
     margin-bottom: 46px;
   }
 
   .wrap_work {
-    display: flex;
-    gap: 60px;
+    display: grid;
+    gap: 30px;
   }
 
   .card_work {
@@ -999,16 +1003,19 @@ nav {
   }
 
   .card_work img {
-    height: 371px;
+    width: 261px;
+    height: 186px;
     align-self: stretch;
     margin-bottom: 24px;
     border-radius: 10px;
   }
 
   .nama_work {
-    font-size: 24px;
+    font-size: 16px;
     color: white;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
   }
 }
 
