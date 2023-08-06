@@ -112,7 +112,7 @@ nav {
 
 .nav_mail {
   display: flex;
-  font-size: 8px;
+  font-size: 20px;
   gap: 24px;
   align-items: center;
   color: #ffffff;
@@ -191,6 +191,7 @@ nav {
   font-family: “Helvetica”, sans-serif;
   color: #ffffff;
   text-align: center;
+  margin: auto;
   max-width: 900px;
   margin-bottom: 40px;
 }
