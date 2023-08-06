@@ -110,7 +110,7 @@ nav {
   background-color: #0a0a0a;
 }
 
-.nav_mail {
+.nav_mail a {
   display: flex;
   font-size: 20px;
   gap: 24px;
@@ -830,7 +830,7 @@ nav {
   }
 
   .card_sertif {
-    padding: 36px;
+    padding: 24px;
     justify-content: center;
     align-items: center;
     color: white;
@@ -855,18 +855,18 @@ nav {
   }
 
   .card_sertif img {
-    width: 261px;
+    width: 290px;
     margin-bottom: 24px;
   }
 
   .nama_lomba {
-    font-size: 24px;
+    font-size: 20px;
     color: white;
     margin-bottom: 24px;
   }
 
   .desk_lomba {
-    font-size: 12px;
+    font-size: 16px;
     color: white;
     margin-bottom: 24px;
   }
