@@ -110,7 +110,7 @@ nav {
   background-color: #0a0a0a;
 }
 
-.nav_mail a {
+.nav_mail {
   display: flex;
   font-size: 20px;
   gap: 24px;
@@ -421,6 +421,7 @@ nav {
   align-items: center;
   gap: 16px;
   flex: 1 0 0;
+  justify-content: center;
 }
 
 .qtechfooter img {
@@ -926,12 +927,14 @@ nav {
     align-items: center;
     gap: 16px;
     flex: 1 0 0;
+    justify-content: center;
   }
 
   .qtechfooter img {
     width: 199px;
     height: 38px;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
   }
 
   .playgroundfooter {
