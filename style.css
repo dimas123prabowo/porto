@@ -689,7 +689,7 @@ nav {
     max-width: var(--max-width);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #0a0a0a;
   }
 
